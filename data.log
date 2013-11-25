@@ -1,0 +1,17 @@
+2013-11-25T10:22:22-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:22:23-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:22:24-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:46:41-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:46:58-02:00 INFO (6): {event} event triggered
+2013-11-25T10:46:59-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:47:07-02:00 INFO (6): {event} event triggered
+2013-11-25T10:47:07-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:47:08-02:00 INFO (6): {event} event triggered
+2013-11-25T10:47:09-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:47:58-02:00 INFO (6): event.insert event triggered
+2013-11-25T10:47:58-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:48:04-02:00 INFO (6): event.edit event triggered
+2013-11-25T10:48:04-02:00 INFO (6): Hello Zend Log
+2013-11-25T10:48:06-02:00 INFO (6): event.delete event triggered
+2013-11-25T10:48:06-02:00 INFO (6): Hello Zend Log
+2013-11-25T11:23:46-02:00 INFO (6): Hello Zend Log

@@ -2,7 +2,8 @@
 return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
-        'Application',
+        //'Application',
+		'Contact',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
@@ -13,15 +14,15 @@ return array(
         // Module class.
         'module_paths' => array(
             './module',
-            './vendor',
+            //'./vendor',
         ),
 
         // An array of paths from which to glob configuration files after
         // modules are loaded. These effectively override configuration
         // provided by modules themselves. Paths may use GLOB_BRACE notation.
-        'config_glob_paths' => array(
-            'config/autoload/{,*.}{global,local}.php',
-        ),
+        //'config_glob_paths' => array(
+            //'config/autoload/{,*.}{global,local}.php',
+        //),
 
         // Whether or not to enable a configuration cache.
         // If enabled, the merged configuration will be cached and used in

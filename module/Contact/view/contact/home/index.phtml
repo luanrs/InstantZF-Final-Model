@@ -1,0 +1,29 @@
+<div><a href="contact/home/new">Add new contact</a></div>
+<hr />
+<div>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Action</th>
+		</tr>
+		<?php 
+			if (count($rows) > 0):
+				foreach ($rows as $r):
+		?>
+		<tr>
+			<td><?= $r['name'] ?></td>
+			<td><?= $r['email'] ?></td>
+			<td><?= $r['phone'] ?></td>
+			<td>
+				<a href="contact/home/edit?id=<?= $r['id'] ?>">Edit</a> /
+				<a href="contact/home/delete?id=<?= $r['id'] ?>">Delete</a>
+			</td>
+		</tr>
+		<?php 
+				endforeach;
+			endif;
+		?>
+	</table>
+</div>

@@ -1,0 +1,18 @@
+<hr />
+<div>
+	<div>
+	<?php 
+// 		echo $this->errorMsg($invalids); 
+	?>
+	</div>
+	<form method="post">
+		Name <br/>
+		<input type="text" name="name" value="<?php if(isset($row['name'])) echo $row['name']; ?>" /><br />
+		Email <br/>
+		<input type="text" name="email" value="<?php if(isset($row['email'])) echo $row['email']; ?>" /><br />
+		Phone <br/>
+		<input type="text" name="phone" value="<?php if(isset($row['phone'])) echo $row['phone']; ?>" /><br />
+		<br /><br />
+		<input type="submit" value="Save" />
+	</form>
+</div>
